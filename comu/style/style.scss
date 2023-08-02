@@ -1,0 +1,20 @@
+@import 'utils/reset';
+@import 'utils/variables';
+@import 'utils/components';
+@import 'home/home';
+@import 'header';
+@import 'about';
+@import 'features';
+
+// todo: добавить все импорты
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 700px) {
+    .header__logo {
+        margin-right: 0;
+    }
+
+    }
